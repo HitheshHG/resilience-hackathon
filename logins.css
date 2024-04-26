@@ -1,0 +1,152 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    background-color:black;
+}
+
+.header ul
+{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.header li
+{
+    margin: 0 20px 20px 0;
+}
+
+.header a
+{
+    color:black;
+    text-decoration: none;
+    padding: 15px 30px;
+    background-color:white;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.header :hover
+{
+    background-color:grey;
+}
+
+.logo {
+    height: 50px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+  
+  .login-container {
+    width: 300px;
+    background-color: #fff;
+    padding: 20px;
+    margin: 50px auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.2);
+  }
+  
+  .login-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .login-container label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .login-container input[type="text"],
+  .login-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .login-container input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .login-container input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+
+  .get-involved {
+    background-color:black;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.get-involved h2 {
+    font-size: 48px;
+    margin-bottom: 40px;
+}
+
+.get-involved ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.get-involved li {
+    margin: 0 20px 20px 0;
+}
+
+.get-involved a {
+    color:black;
+    text-decoration: none;
+    padding: 15px 30px;
+    background-color:white;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.get-involved a:hover {
+    background-color:gray;
+}
+
+@media screen and (max-width: 768px) {
+    .features {
+        flex-direction: column;
+    }
+
+    .feature {
+        flex-basis: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .hero h1 {
+        font-size: 48px;
+    }
+
+    .get-involved h2 {
+        font-size: 32px;
+    }
+}
