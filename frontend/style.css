@@ -23,7 +23,7 @@ header {
 
 .header li
 {
-    margin: 0 20px 20px 0;
+    margin: 160px 100px 20px 0;
 }
 
 .header a
@@ -32,7 +32,7 @@ header {
     text-decoration: none;
     padding: 15px 30px;
     background-color:white;
-    border-radius: 5px;
+    border-radius:7px;
     transition: background-color 0.3s ease;
 }
 
@@ -42,7 +42,8 @@ header {
 }
 
 .logo {
-    height: 50px;
+    color: white;
+    padding: 0;
 }
 
 nav ul {
@@ -66,7 +67,7 @@ nav a {
 }
 
 .hero {
-    background-image: url("./Cancer-care.jpg");
+    background-image: url("./support-group-picture.png.jpg");
     background-size: cover;
     height: 100vh;
     display: flex;
@@ -95,7 +96,7 @@ nav a {
     color:white;
     padding: 15px 30px;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 7px;
     transition: background-color 0.3s ease;
 }
 
